@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\RS\\RS\\RS.csproj": {}
+    "C:\\Code\\RS\\CappingBot\\CappingBot.fsproj": {}
   },
   "projects": {
-    "C:\\Code\\RS\\RS\\RS.csproj": {
+    "C:\\Code\\RS\\CappingBot\\CappingBot.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\RS\\RS\\RS.csproj",
-        "projectName": "RS",
-        "projectPath": "C:\\Code\\RS\\RS\\RS.csproj",
+        "projectUniqueName": "C:\\Code\\RS\\CappingBot\\CappingBot.fsproj",
+        "projectName": "CappingBot",
+        "projectPath": "C:\\Code\\RS\\CappingBot\\CappingBot.fsproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\RS\\RS\\obj\\",
+        "outputPath": "C:\\Code\\RS\\CappingBot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,32 +22,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNetCore.WebUtilities": {
+            "FSharp.Core": {
               "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
             }
           },
           "imports": [
